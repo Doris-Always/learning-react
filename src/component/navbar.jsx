@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 // import PIE from "./Images/pie.png";
 const Navbar = () =>{
@@ -9,7 +9,7 @@ const Navbar = () =>{
           <div className="container">
           <div>
             <img src="./Images/pie.png" alt="logo" className="my-image"/> 
-             <a href="" className ="navbar-brand fs-3"><span>D</span>ee-pie</a>
+             <a href="#" className ="navbar-brand fs-3"><span>D</span>ee-pie</a>
           </div>
           <button type="button" className ="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className ="navbar-toggler-icon "></span>

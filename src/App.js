@@ -9,16 +9,9 @@ import './App.css';
 
 function App() {
   
-  // const [colorChange,setcolorChange] = useState("brown")
-  // const changeColorFunction = () =>{
-  //   setcolorChange("blue")
-  // }
   return (
     <>
-    {/* <div >
-      <button onClick={changeColorFunction}>click me</button>
-       <h1> <span style={{color:colorChange}}>D</span>oris </h1>
-    </div> */}
+    
     <Navbar/>
     
      <Routes>
