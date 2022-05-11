@@ -1,5 +1,4 @@
 import React from 'react';
-// import React,;
 import { Routes,Route } from 'react-router-dom';
 import Navbar from './component/navbar';
 import Home from './component/home'; 
@@ -15,7 +14,7 @@ function App() {
     <Navbar/>
     
      <Routes>
-      <Route exact path='/' element ={<Home heading = "Get A Taste Of Goodness At Dee-pie Shop!"/> } />
+      <Route exact path='/' element ={<Home/> } />
       <Route path='/about' element ={<About/>} />
       <Route path='/contact' element ={<Contact/>} />
      </Routes>

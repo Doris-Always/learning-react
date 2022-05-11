@@ -1,5 +1,6 @@
 import React from "react";
-// import IMAGES from "./Images/picture.js";
+import Card from "./card";
+// import  from "./"
 
 
 const Home = (props) =>{
@@ -7,7 +8,7 @@ const Home = (props) =>{
   return (
 
     <>
-     <h4 className="head">{props.heading}</h4>
+     <h4 className="head"> Get A Taste Of Goodness At Dee-pie Shop!</h4>
      <div className="container">
      <div className="row py-4">
       <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
