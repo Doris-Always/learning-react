@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/learning-react/static/css/main.aaddc085.css",
+    "main.js": "/learning-react/static/js/main.53b54a14.js",
+    "static/js/787.0e6dc9a4.chunk.js": "/learning-react/static/js/787.0e6dc9a4.chunk.js",
+    "static/media/about.jpg": "/learning-react/static/media/about.804f6ef71abafc9184e0.jpg",
+    "static/media/pie7.jpg": "/learning-react/static/media/pie7.e52eddd99f0bfea63be4.jpg",
+    "static/media/pie5.jpg": "/learning-react/static/media/pie5.62d6a3a1c450dcb9e4e8.jpg",
+    "static/media/pie4.jpg": "/learning-react/static/media/pie4.3541b558ee4ed9540370.jpg",
+    "static/media/pie6.jpg": "/learning-react/static/media/pie6.030731696e7dacc2c994.jpg",
+    "static/media/pie3.jpg": "/learning-react/static/media/pie3.3afe80831a0965aa32bb.jpg",
+    "static/media/pie2.jpg": "/learning-react/static/media/pie2.a0e3fc6063dc4e7f83c9.jpg",
+    "static/media/pie8.jpg": "/learning-react/static/media/pie8.9afcd5aba0af1b4b0072.jpg",
+    "static/media/pie1.jpg": "/learning-react/static/media/pie1.c6aa15c78729c253fbe0.jpg",
+    "index.html": "/learning-react/index.html",
+    "main.aaddc085.css.map": "/learning-react/static/css/main.aaddc085.css.map",
+    "main.53b54a14.js.map": "/learning-react/static/js/main.53b54a14.js.map",
+    "787.0e6dc9a4.chunk.js.map": "/learning-react/static/js/787.0e6dc9a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaddc085.css",
+    "static/js/main.53b54a14.js"
+  ]
+}
