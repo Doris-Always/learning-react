@@ -6,6 +6,7 @@ import About from './component/about';
 import Contact from './component/contact';
 import './App.css';
 
+
 function App() {
   
   return (

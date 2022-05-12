@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import PIE from "./Images/pie.png";
+import pic from "../Images/pielogo.png"
 const Navbar = () =>{
    
    return (
@@ -8,7 +8,7 @@ const Navbar = () =>{
         <div className="navbar navbar-expand-lg bg-dark navbar-dark shadow">
           <div className="container">
           <div>
-            <img src="./Images/pie.png" alt="logo" className="my-image"/> 
+            <img src={pic} alt="logo" className="my-image"/> 
              <a href="#" className ="navbar-brand fs-3"><span>D</span>ee-pie</a>
           </div>
           <button type="button" className ="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

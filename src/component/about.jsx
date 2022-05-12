@@ -1,6 +1,7 @@
 import React from "react";
+import pic from "../Images/about.jpg"
 
-const About = (props) =>{
+const About = () =>{
   
   return (
     <>
@@ -18,7 +19,7 @@ const About = (props) =>{
           <a href="#" className="btn btn-primary">order now!</a>
         </div>
         <div className="col-md-6 col-sm-12">
-          <img src="./Images/christmasapplepie.jpg" alt=""  style={{height:"100%",width:"100%"}}/>
+          <img src= {pic} alt=""  style={{height:"100%",width:"100%"}}/>
         </div>
       </div>
     </div>
