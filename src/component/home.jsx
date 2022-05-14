@@ -10,60 +10,68 @@ import pic7 from "../Images/pie2.jpg"
 import pic8 from "../Images/pie8.jpg"
 
 
-
-
-
 const Home = () =>{
-  const content ={
-    title: "Cherry Pie",
-    text: "Our tasty cherry pie available all week round",
-   
-    title2: "Cranberry pie",
-    text2: "You will get a good satisfaction with a bite",
-
-    title3:"Strawberry cheese cake",
-    text3: "Weekend is nice,with our special weekend pie",
-
-    title4:"Blueberry pie",
-    text4: "Your dinner specialty,it's all good with family at home",
-
-    title5:"Strawberry pie(small)",
-    text5: "Your dinner specialty,single set",
-
-    title6:"Pumpkin pie",
-    text6: "Your dinner specialty,single set",
-
-    title7:"Rhubarb pie",
-    text7: "Your dinner specialty,single set",
-
-    title8:"Peach pie",
-    text8: "Your dinner specialty,single set"
-  };
+  let contents = [
+    {
+      title: "Cherry Pie",
+      text: "Our tasty cherry pie available all week round",
+      img: pic
+    },
+    {
+      title: "Cranberry pie",
+      text: "You will get a good satisfaction with a bite",
+      img:pic2
+    },
+    {
+      title:"Strawberry cheese cake",
+      text: "Weekend is nice,with our special weekend pie",
+      img:pic3
+    },
+    {
+      title:"Blueberry pie",
+      text: "Your dinner specialty,it's all good with family at home",
+      img:pic4
+    },
+    {
+      title:"Strawberry pie(small)",
+      text: "Your dinner specialty,single set",
+      img:pic5
+    },
+    {
+      title:"Pumpkin pie",
+      text: "Your dinner specialty,single set",
+      img:pic6
+    },
+    {
+      title:"Rhubarb pie",
+      text: "Your dinner specialty,single set",
+      img:pic7
+    },
+    {
+      title:"Peach pie",
+      text: "Your dinner specialty,single set",
+      img:pic8
+    }
+  ]
+  
   return (
     <>
     <h4 className="head"> Get A Taste Of Goodness At Dee-pie Shop!</h4>
     <div className="container">
-      <div className="row my-3">
-        <Card 
-          img={pic}
-          title = {content.title} 
-          text = {content.text}/>
-        <Card
-          img={pic2}
-          title = {content.title2} 
-          text = {content.text2}/>
-        <Card 
-          img={pic3}
-          title= {content.title3} 
-          text = {content.text3}/>
-        <Card 
-          img={pic4} 
-          title= {content.title4} 
-          text = {content.text4}/>
+      <div className="row my-3 gy-3">
+
+        {
+            contents.map((item, index) => {
+              return (
+                <Card key={index} title={item.title} text={item.text} img={item.img}/>
+            )
+         })   
+        }
         
       </div>
+      
 
-      <div className="row my-4">
+      {/* <div className="row my-4">
       <Card 
         img={pic5}
         title  = {content.title5} 
@@ -81,7 +89,7 @@ const Home = () =>{
         title = {content.title8} 
         text = {content.text8}/>
       </div>
-      
+       */}
     </div>
 
     </>
